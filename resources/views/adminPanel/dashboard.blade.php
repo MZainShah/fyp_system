@@ -118,7 +118,7 @@
                                 <tr>
                                     <td colspan="5" class="text-center py-4 text-muted">
                                         <i class="fas fa-folder-open fa-2x mb-2 d-block opacity-50"></i>
-                                        Sir, Google Sheet mein koi record nahi mila.
+                                        There is no data.
                                     </td>
                                 </tr>
                                 @endforelse

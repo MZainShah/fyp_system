@@ -46,9 +46,6 @@
                             <a class="nav-link" href="{{ route('allocated.supervisors.list') }}">
                                 Allocated Supervisors
                             </a>
-                            <a class="nav-link" href="#">
-                                Reset Data
-                            </a>
                         </nav>
                     </div>
                     <div class="sb-sidenav-menu-heading">Addons</div>

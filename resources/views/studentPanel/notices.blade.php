@@ -10,7 +10,7 @@
             <div class="d-flex align-items-center justify-content-between mb-4">
                 <div>
                     <h2 class="fw-bold text-dark mb-0">Student Notice Board</h2>
-                    <p class="text-muted small mb-0">Sir, yahan aapko university aur projects se mutalika latest updates milengi.</p>
+                    <p class="text-muted small mb-0">Sir, here you will find the latest updates related to the university and projects.</p>
                 </div>
                 <div class="text-end">
                     <span class="badge bg-primary px-3 py-2">Latest Updates</span>
@@ -26,7 +26,7 @@
                         </div>
                         <div>
                             <strong class="d-block text-primary">Announcement Guidelines</strong>
-                            <small class="text-muted">Niche diye gaye notices ko dhiyan se parhein aur agar koi document link hai toh usay lazmi check karein.</small>
+                            <small class="text-muted">Please read the notices given below carefully, and if there is any document link, make sure to check it as well.</small>
                         </div>
                     </div>
 

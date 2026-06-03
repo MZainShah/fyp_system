@@ -56,7 +56,7 @@
                         <div class="mb-4">
                             <label class="form-label fw-bold text-dark">Notice Message</label>
                             <textarea name="message" class="form-control bg-light" rows="6" 
-                                      placeholder="Sir, apna detail message yahan likhein..." required></textarea>
+                                      placeholder="Sir, Write Description of the Notice..." required></textarea>
                             @error('message') <small class="text-danger">{{ $message }}</small> @enderror
                         </div>
 
@@ -68,7 +68,7 @@
                                 <input type="url" name="doc_link" class="form-control bg-light border-start-0" 
                                     placeholder="https://docs.google.com/document/d/..." >
                             </div>
-                            <small class="text-muted">Sir, file upload kar ke uska 'Anyone with the link' wala link yahan paste kar dein.</small>
+                            <small class="text-muted">Sir, Upload File here, if needed.</small>
                             @error('doc_link') <small class="text-danger">{{ $message }}</small> @enderror
                         </div>
 

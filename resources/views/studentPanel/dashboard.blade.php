@@ -88,7 +88,7 @@
                 </div>
                 <div class="card-body">
                     <div class="alert alert-info border-0 shadow-none mb-0">
-                        <strong>Notice:</strong> Please ensure your Project Title is submitted and approved by your supervisor before 15th May.
+                        <strong>Notice:</strong>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                 <thead class="table-light">
                     <tr>
                         <th class="ps-3">Deliverable</th>
-                        <th>Deadline</th>
+                       
                         <th>Status</th>
                         <th class="text-center">Action</th>
                     </tr>
@@ -115,7 +115,7 @@
             <div class="fw-bold">{{ $projectDetails['title'] ?? 'FYPMS' }}</div>
             <div class="small text-muted">Final Year Project Phase I</div>
         </td>
-        <td>15 May 2026</td>
+        
         <td>
             @php
                 $status = $projectDetails['status'] ?? 'Pending';
@@ -136,14 +136,6 @@
         </td>
     </tr>
     <!-- SRS Row Static hi rahay gi -->
-    <tr>
-        <td class="ps-3 fw-bold">SRS Document</td>
-        <td>30 June 2026</td>
-        <td><span class="badge bg-secondary">Locked</span></td>
-        <td class="text-center">
-            <button class="btn btn-sm btn-light" disabled>Locked</button>
-        </td>
-    </tr>
 </tbody>
             </table>
         </div>
